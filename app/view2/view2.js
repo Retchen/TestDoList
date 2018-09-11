@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('TestDoList.view2', ['ngRoute'])
+angular.module('MyApp.view2', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2', {

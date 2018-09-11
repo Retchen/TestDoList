@@ -2,7 +2,7 @@
 
 describe('TestDoList.view2 module', function() {
 
-  beforeEach(module('TestDoList.view2'));
+  beforeEach(module('MyApp.view2'));
 
   describe('view2 controller', function(){
 

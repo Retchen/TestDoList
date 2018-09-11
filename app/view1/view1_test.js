@@ -1,8 +1,8 @@
 'use strict';
 
-describe('TestDoList.view1 module', function() {
+describe('MyApp.view1 module', function() {
 
-  beforeEach(module('TestDoList.view1'));
+  beforeEach(module('MyApp.view1'));
 
   describe('view1 controller', function(){
 

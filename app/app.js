@@ -1,11 +1,11 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('TestDoList', [
+angular.module('MyApp', [
   'ngRoute',
-  'TestDoList.view1',
-  'TestDoList.view2',
-  'TestDoList.version',
+  'MyApp.view1',
+  'MyApp.view2',
+  'MyApp.version',
   'restangular'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {

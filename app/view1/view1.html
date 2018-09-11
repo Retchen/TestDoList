@@ -1,5 +1,8 @@
-<p>This is the partial for view 1.</p>
+<p> Liste des lieux </p>
 
-<script>
-
-</script>
+<ul>
+    <li ng-repeat="venue in $scope.venues">
+        <p>"ID du lieu : " + {{venue.id}}</p>
+        <p>"Nom du lieu : " +{{venue.name}} </p>
+    </li>
+</ul>
